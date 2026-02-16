@@ -1,20 +1,18 @@
 {
-  "name" : "elmahdihaidri/void-php-training",
+  "name": "elmahdi-void/test-package-app-config",
   "type": "library",
   "version": "1.0.0",
   "description": "this is a void php training",
-  "license" : "MIT",
-
+  "license": "MIT",
   "require-dev": {
     "php": "^8.5",
-      "squizlabs/php_codesniffer": "*",
-      "phpstan/phpstan": "^2.1"
+    "squizlabs/php_codesniffer": "*",
+    "phpstan/phpstan": "^2.1"
   },
-
   "autoload": {
-      "psr-4": {
-          "Elmahdi\\Config\\": "src/"
-      }
+    "psr-4": {
+      "Elmahdi\\Config\\": "src/"
+    }
   },
   "require": {
     "dflydev/dot-access-data": "3.0.1",
