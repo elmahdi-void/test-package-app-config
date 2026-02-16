@@ -5,7 +5,7 @@
   "description": "this is a void php training",
   "license": "MIT",
   "require-dev": {
-    "php": "^>=8.2",
+    "php": ">=8.2",
     "squizlabs/php_codesniffer": "*",
     "phpstan/phpstan": "^2.1"
   },
