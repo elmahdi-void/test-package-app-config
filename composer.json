@@ -1,0 +1,27 @@
+{
+  "name" : "elmahdihaidri/void-php-training",
+  "type": "library",
+  "version": "1.0.0",
+  "description": "this is a void php training",
+  "license" : "MIT",
+
+  "require-dev": {
+    "php": "^8.5",
+      "squizlabs/php_codesniffer": "*",
+      "phpstan/phpstan": "^2.1"
+  },
+
+  "autoload": {
+      "psr-4": {
+          "Elmahdi\\Config\\": "src/"
+      }
+  },
+  "require": {
+    "dflydev/dot-access-data": "3.0.1",
+    "nette/schema": "*"
+  },
+  "scripts": {
+    "phpcs": "vendor/bin/phpcs",
+    "phpstan": "vendor/bin/phpstan analyse"
+  }
+}
